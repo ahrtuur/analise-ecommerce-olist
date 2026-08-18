@@ -166,7 +166,7 @@ cd analysis && python build_dashboard_images.py
 3. Rode o pipeline normalmente a partir do passo 4 acima — as colunas têm
    exatamente os mesmos nomes do dataset real, então nada mais precisa mudar
 
-## 📊 Dashboard em Power BI (opcional)
+##  Dashboard em Power BI 
 
 As imagens deste README foram geradas com Python/Matplotlib direto a partir
 dos resultados do MySQL, para que o projeto funcionasse de ponta a ponta neste
