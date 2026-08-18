@@ -1,0 +1,11 @@
+# dados brutos (grandes demais pro git — baixe do Kaggle, ver README)
+data/raw/*.csv
+
+# ambiente Python
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# credenciais
+.env
