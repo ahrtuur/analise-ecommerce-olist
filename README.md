@@ -158,7 +158,7 @@ cd analysis && python build_dashboard_images.py
 
 ---
 
-## 📥 Como reproduzir com os dados reais do Kaggle
+##  Como reproduzir com os dados reais do Kaggle
 
 1. Baixe o dataset em
    [kaggle.com/datasets/olistbr/brazilian-ecommerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
