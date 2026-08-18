@@ -1,4 +1,4 @@
-# 📦 Análise de Dados de E-commerce — Olist
+#  Análise de Dados de E-commerce — Olist
 
 Pipeline completo de dados usando **Python (ETL) → MySQL → SQL de negócio → Dashboard de BI**,
 construído sobre o formato do *Brazilian E-Commerce Public Dataset by Olist* (Kaggle).
@@ -10,7 +10,7 @@ júnior.
 
 ![Dashboard Olist](images/00_dashboard_overview.png)
 
-> ℹ️ **Sobre os dados usados nas imagens deste README:** este ambiente não
+>  **Sobre os dados usados nas imagens deste README:** este ambiente não
 > tinha acesso ao Kaggle para baixar o dataset original, então os números e
 > gráficos abaixo foram gerados a partir de um **dataset sintético** (mesma
 > estrutura de colunas, mesmo tipo de "sujeira" — nulos, datas como texto,
@@ -21,7 +21,7 @@ júnior.
 
 ---
 
-## 🎯 Perguntas de negócio respondidas
+##  Perguntas de negócio respondidas
 
 - Qual a receita mensal e como ela evolui ao longo do tempo?
 - Quais categorias de produto vendem mais?
@@ -29,7 +29,7 @@ júnior.
 - Quais estados compram mais?
 - Quais são os métodos de pagamento mais usados?
 
-## 💡 Principais insights (rodados no dataset de exemplo)
+##  Principais insights (rodados no dataset de exemplo)
 
 - **Atraso na entrega derruba a satisfação:** pedidos entregues no prazo têm
   nota média **4.22**, contra **2.19** nos atrasados — a variável que mais
@@ -44,7 +44,7 @@ júnior.
 
 ---
 
-## 🖼️ Dashboard
+##  Dashboard
 
 | Receita Mensal | Top Categorias |
 |---|---|
@@ -60,7 +60,7 @@ júnior.
 
 ---
 
-## 🛠️ Stack
+##  Stack
 
 - **Python** (pandas, SQLAlchemy) — ETL
 - **MySQL** — modelagem relacional e armazenamento
@@ -68,7 +68,7 @@ júnior.
 - **Matplotlib** — visualização (dashboard também pode ser recriado em Power BI, ver seção abaixo)
 - **Jupyter Notebook** — exploração inicial dos dados
 
-## 🧱 Arquitetura do pipeline
+##  Arquitetura do pipeline
 
 ```
 Kaggle CSVs (data/raw/)
@@ -96,7 +96,7 @@ customers ──< orders ──< order_items >── products
 sellers ──< order_items
 ```
 
-## 📁 Estrutura do projeto
+##  Estrutura do projeto
 
 ```
 projeto-olist/
@@ -120,7 +120,7 @@ projeto-olist/
 
 ---
 
-## 🚀 Como rodar
+##  Como rodar
 
 ### 1. Pré-requisitos
 ```bash
@@ -184,7 +184,7 @@ estágio no Brasil):
 
 ---
 
-## 🎤 Como apresentar isso numa entrevista
+##  Como apresentar isso numa entrevista
 
 - **"Me conta sobre esse projeto"** → pipeline ETL em Python que carrega dados
   de e-commerce num MySQL modelado relacionalmente, com consultas SQL que
@@ -201,7 +201,7 @@ estágio no Brasil):
 
 ---
 
-## 🔭 Próximos passos
+##  Próximos passos
 
 - [ ] Automatizar a geração de um relatório em PDF a partir das queries
 - [ ] Reescrever as queries usando pandas puro (mostrar as duas habilidades)
@@ -210,7 +210,7 @@ estágio no Brasil):
 
 ---
 
-## 📄 Licença
+##  Licença
 
 Este projeto é livre para uso educacional e de portfólio. O dataset original
 (quando usado) é distribuído pela Olist sob licença do Kaggle — consulte os
