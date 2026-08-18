@@ -182,31 +182,6 @@ estágio no Brasil):
    linha (receita mensal), barras (categorias, estados), mapa (pedidos por
    estado) e pizza (pagamento)
 
----
-
-##  Como apresentar isso numa entrevista
-
-- **"Me conta sobre esse projeto"** → pipeline ETL em Python que carrega dados
-  de e-commerce num MySQL modelado relacionalmente, com consultas SQL que
-  respondem perguntas de negócio, visualizadas num dashboard.
-- **"Por que MySQL e não só CSV?"** → os dados são relacionais (pedidos,
-  clientes, produtos, vendedores se conectam via chaves estrangeiras) e SQL é
-  padrão de mercado para esse tipo de modelagem.
-- **"Qual foi o maior desafio?"** → tratamento de dados nulos/duplicados e
-  garantir integridade referencial antes da carga (uma pedido não pode
-  apontar para um cliente que não existe).
-- **Insight de negócio pra ter na ponta da língua:** a relação entre atraso na
-  entrega e nota de avaliação — conecta dado bruto a decisão de negócio
-  (priorizar SLA de logística pode valer mais que otimizar produto).
-
----
-
-##  Próximos passos
-
-- [ ] Automatizar a geração de um relatório em PDF a partir das queries
-- [ ] Reescrever as queries usando pandas puro (mostrar as duas habilidades)
-- [ ] Análise de cohort de clientes (recompra)
-- [ ] Versão interativa do dashboard em Power BI / Looker Studio
 
 ---
 
