@@ -10,15 +10,6 @@ júnior.
 
 ![Dashboard Olist](images/00_dashboard_overview.png)
 
->  **Sobre os dados usados nas imagens deste README:** este ambiente não
-> tinha acesso ao Kaggle para baixar o dataset original, então os números e
-> gráficos abaixo foram gerados a partir de um **dataset sintético** (mesma
-> estrutura de colunas, mesmo tipo de "sujeira" — nulos, datas como texto,
-> duplicatas — e os mesmos padrões de negócio do dataset real, como atraso de
-> entrega afetando a nota de avaliação). O pipeline inteiro — schema, ETL e
-> queries — já roda de ponta a ponta contra um MySQL de verdade. Para trocar
-> pelos dados reais, veja a seção [Como reproduzir com os dados reais](#-como-reproduzir-com-os-dados-reais-do-kaggle).
-
 ---
 
 ##  Perguntas de negócio respondidas
